@@ -1,0 +1,6 @@
+body{
+    background-color: #f3f4f6; /* Warna latar belakang abu-abu terang */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font yang bersih dan modern */
+    margin: 0;
+    padding: 0; /* Menghapus margin dan padding default */
+}
