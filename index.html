@@ -18,13 +18,13 @@
        <form>
         <input type="text" id="todo-input" placeholder="Add your new todo" class="border border-gray-300 rounded-md p-2 w-64 mb-2">
         <input type="date" id="todo-date" class="border border-gray-300 rounded-md p-2 w-64">
-        <button type="button" onclick="addtodo()" class="bg-blue-500 text-white rounded-md p-2 ml-2">Add</button>
+        <button type="button" onclick="addTodo()" class="bg-blue-500 text-white rounded-md p-2 ml-2">Add</button>
        </form>
       <section class="mt-6">
          <header>
                 <h2 class="text-2xl font-bold">Your todo:</h2>
        </header>
-       <ul class="mt-4"> 
+       <ul class="mt-4" id="todo-list"> 
             <li class="border-b border-gray-300 py-2"> sample to do - <span class="text-sm text-gray-500">2025-12-31</span></li>
             <li class="border-b border-gray-300 py-2"> sample to do - <span class="text-sm text-gray-500">2025-12-30</span></li>
        </ul>
